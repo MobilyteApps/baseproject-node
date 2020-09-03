@@ -1,0 +1,36 @@
+{
+  "name": "node-starter",
+  "version": "1.0.0",
+  "description": "Base Project for Node Apps",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose"
+  ],
+  "author": "Auqib And Rahul",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.8",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.3",
+    "express-jwt": "^5.3.1",
+    "handlebars": "^4.7.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.2.8",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.2",
+    "nodemailer-express-handlebars": "^3.1.0",
+    "noogger": "^0.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

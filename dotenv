@@ -1,0 +1,5 @@
+#create a file .env and uncommit below lines
+#DB=mongodb://localhost:27017/angularnodeprototype
+#ENV=development
+#SECRET=thisismysecret
+#FRONTENDURL=http://10.10.30.20:8072
